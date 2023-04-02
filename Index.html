@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/jpg" href="pokeapi_256.3fa72200.png"/>
+    <script src="https://kit.fontawesome.com/95cde95544.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Pokedex</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"> <img id="mainPost-pokeApi" src="pokeapi_256.3fa72200.png" alt=""></a></li>
+                <li><a href="#">About us <i class="fa-solid fa-circle-info"></i></a></l>
+                <li><a href="#">Games <i class="fa-solid fa-gamepad"></i></a></li>
+                <li><a href="#">Contacts <i class="fa-solid fa-address-book"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="left-Container">
+        <div id="searchBar">
+            <input type="search" placeholder="Search "> <button><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="list-PokeResults">
+            
+        </div>
+        <select name="select" id="typeSelector">
+            <option>Todos</option>
+            <option>Normal</option>
+            <option>fight</option>
+            <option>Flying</option>
+            <option>Poison</option>
+            <option>Ground</option>
+            <option>Rock</option>
+            <option>Bug</option>
+            <option>Ghost</option>
+            <option>Steel</option>
+            <option>Fire</option>
+            <option>Water</option>
+            <option>Grass</option>
+            <option>Electric</option>
+            <option>Psychic</option>
+            <option>Ice</option>
+            <option>Dragon</option>
+            <option>Dark</option>
+            <option>Fairy</option>
+        </select>
+    </section>
+    <section class="main-Container">
+       <div id="pokemon-info">
+           <section id="mainpokeinfo"  >
+                <div>
+                    <img id="mainBigPic" src="pokedex.jpg" alt="">
+                </div>
+                <div>
+                    <h4 id="name">Name</h4>
+                    <ul id="type">Type:
+                        
+                    </ul>
+                </div>
+            <div class="currectPokemonStatus">
+                <p id="poke_height"><b>Height: </b> value </p>
+                <p id="poke_experience"><b>Experience: </b> value </p>
+                <p id="poke_wight"><b>Weight: </b> value </p>
+            </div>
+           </section>
+            <section id="showPokemonData">
+                <div >   
+                    <b>Abilites</b>
+                    <ul id="poke-Abilites" class="infolist">
+                        <li id="ability1" type="disc">ability 1</li>
+                        <li  id="ability2" type="disc">ability 2</li>
+                        <li  id="ability3" type="disc">ability 3</li>
+                        <li  id="ability4" type="disc">ability 4</li>
+                    </ul>
+                </div>
+                <div id="status">   
+                    <b>Status</b>
+                    <ul id="poke-Status" class="infolist">
+                        <li id="hp" type="disc">HP: 0</li>
+                        <li id="Attack" type="disc">Attack: 0</li>
+                        <li id="defense"  type="disc">Defense: 0</li>
+                        <li id="specialAttack" type="disc">Special Attack: 0</li>
+                        <li id="specialDefense" type="disc">Special Defense: 0</li>
+                        <li id="speed" type="disc">Speed: 0</li>
+                    </ul>
+                </div>
+                <div id="moves">   
+                    <b>Moves</b>
+                    <ul id="poke-Moves" class="infolist">
+                        <li id="move1" type="disc">move 1</li>
+                        <li id="move2" type="disc">move 2</li>
+                        <li id="move3" type="disc">move 3</li>
+                        <li id="move4" type="disc">move 4</li>
+                    </ul>
+                </div>
+            </section>
+       </div>
+    </section>
+    <script src="Script.js"></script>
+</body>
+</html>

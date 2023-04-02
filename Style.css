@@ -1,0 +1,184 @@
+*{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: yellow;
+}
+body{
+    background: linear-gradient(to left, yellow, black);
+}
+header {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    opacity: 0.7;
+    margin: -8px;
+    height: 75px;
+}
+nav {
+    float: left;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+  
+nav ul li {
+    float: left;
+    font-size: 16px;
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: #eca023;
+    opacity: 1;
+}
+.left-Container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 68px;
+    border: 2px solid;
+    padding: 13px;
+    width: fit-content;
+    max-height: 412px;
+    height: 412px;
+    border-radius: 6px;
+    background-color: transparent;
+}
+#searchBar{
+    padding: 4px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 7px;
+}
+#list-PokeResults{
+    height: 349px;
+    border: ridge #240b36 4px;
+    border-radius: 6px;
+    padding: 1px;
+    margin-top: 14px;
+    overflow: auto;
+}
+button{
+    background-color: black;
+    border-radius: 16px;
+}
+.fa-sharp{
+    color: white;
+}
+input:focus{
+background-color: black;
+color: white !important;
+}
+.main-Container{
+    display: flex;
+    position: relative;
+    border: solid black 2px;
+    bottom: 373px;
+    width: 755px;
+    left: 480px;
+    height: 457px;
+    border-radius: 13px;
+    padding: 17px;
+    background-color: transparent;
+}
+#pokemon-info{
+    position: relative;
+    border: 2px ridge white;
+    width: 740px;
+    height: 470px;
+    border-radius: 147px;
+    background-color: black;
+    max-height: 470px;
+    overflow: auto;
+}
+#mainBigPic{
+    border-radius: 50px;
+    width: 288px;
+    height: 155px;
+    border: ridge white 6px;
+    object-fit: contain;
+}
+#showPokemonData{
+    color: beige;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+    object-fit: contain;
+}
+#mainpokeinfo{
+    position: relative;
+    text-align: center;
+    color: beige;
+}
+.currectPokemonStatus{
+    display: inline-flex;
+}
+p{
+    padding: 4px;
+}
+*::-webkit-scrollbar {
+    width: 12px;
+}
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px yellow;
+}
+.poke-Pics{
+    border-radius: 60px;
+    border: ridge yellow 4px;
+    object-fit: contain;
+    background-color: black;
+    height: 49px;
+    width: 19%;
+}
+.poke-row{
+    border-radius:10px;
+    border: ridge darkred 4px;
+    height: 60px
+}
+.poke-row:hover,.poke-Pics:hover{
+    background-color: red;
+}
+#mainPost-pokeApi{
+    object-fit: contain;
+    height: 32px
+}
+.poke-types{
+    position: relative;
+    right: 50px;
+    top: -40px;
+    background-color: black;
+    border-radius: 12px;
+    border: white solid 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+input{
+    width: 360px;
+    color: black !important; 
+}
+#typeSelector{
+    color: yellow !important;
+    font-size: 18px;
+    margin-top: 6px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+}
+.poke-Names{
+    color: black !important;
+    background-color: yellow;
+    border-radius: 12px;
+    border: black ridge 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
